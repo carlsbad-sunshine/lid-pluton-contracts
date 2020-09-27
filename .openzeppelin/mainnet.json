@@ -1,0 +1,1050 @@
+{
+  "contracts": {
+    "TeamLock": {
+      "address": "0x4274Ba8ac2E7d2316A711c333AEE89d2d60e23A1",
+      "constructorCode": "6080604052610f22806100136000396000f3fe",
+      "bodyBytecodeHash": "86d886ce2ffbc4c1c5e478aa88656b65e9bf04e9e9a860b0701ef78678ca853c",
+      "localBytecodeHash": "5d69fd8ae628c268e28a62f1f4b0e8ec0410aa7848dd8230b38ba7da1ffcc060",
+      "deployedBytecodeHash": "5d69fd8ae628c268e28a62f1f4b0e8ec0410aa7848dd8230b38ba7da1ffcc060",
+      "types": {
+        "t_bool": {
+          "id": "t_bool",
+          "kind": "elementary",
+          "label": "bool"
+        },
+        "t_uint256": {
+          "id": "t_uint256",
+          "kind": "elementary",
+          "label": "uint256"
+        },
+        "t_array:50<t_uint256>": {
+          "id": "t_array:50<t_uint256>",
+          "valueType": "t_uint256",
+          "length": "50",
+          "kind": "array",
+          "label": "uint256[50]"
+        },
+        "t_address": {
+          "id": "t_address",
+          "kind": "elementary",
+          "label": "address"
+        }
+      },
+      "storage": [
+        {
+          "contract": "Initializable",
+          "path": "@openzeppelin\\upgrades\\contracts\\Initializable.sol",
+          "label": "initialized",
+          "astId": 8306,
+          "type": "t_bool",
+          "src": "757:24:35"
+        },
+        {
+          "contract": "Initializable",
+          "path": "@openzeppelin\\upgrades\\contracts\\Initializable.sol",
+          "label": "initializing",
+          "astId": 8308,
+          "type": "t_bool",
+          "src": "876:25:35"
+        },
+        {
+          "contract": "Initializable",
+          "path": "@openzeppelin\\upgrades\\contracts\\Initializable.sol",
+          "label": "______gap",
+          "astId": 8370,
+          "type": "t_array:50<t_uint256>",
+          "src": "1982:29:35"
+        },
+        {
+          "contract": "Ownable",
+          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\ownership\\Ownable.sol",
+          "label": "_owner",
+          "astId": 7666,
+          "type": "t_address",
+          "src": "526:22:31"
+        },
+        {
+          "contract": "Ownable",
+          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\ownership\\Ownable.sol",
+          "label": "______gap",
+          "astId": 7779,
+          "type": "t_array:50<t_uint256>",
+          "src": "2471:29:31"
+        },
+        {
+          "contract": "LidTimeLock",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidTimeLock.sol",
+          "label": "releaseInterval",
+          "astId": 1878,
+          "type": "t_uint256",
+          "src": "536:27:4"
+        },
+        {
+          "contract": "LidTimeLock",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidTimeLock.sol",
+          "label": "releaseStart",
+          "astId": 1880,
+          "type": "t_uint256",
+          "src": "570:24:4"
+        },
+        {
+          "contract": "LidTimeLock",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidTimeLock.sol",
+          "label": "releaseBP",
+          "astId": 1882,
+          "type": "t_uint256",
+          "src": "601:21:4"
+        },
+        {
+          "contract": "LidTimeLock",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidTimeLock.sol",
+          "label": "startingTokens",
+          "astId": 1884,
+          "type": "t_uint256",
+          "src": "631:26:4"
+        },
+        {
+          "contract": "LidTimeLock",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidTimeLock.sol",
+          "label": "claimedTokens",
+          "astId": 1886,
+          "type": "t_uint256",
+          "src": "664:25:4"
+        },
+        {
+          "contract": "LidTimeLock",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidTimeLock.sol",
+          "label": "token",
+          "astId": 1888,
+          "type": "t_address",
+          "src": "698:20:4"
+        },
+        {
+          "contract": "LidTimeLock",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidTimeLock.sol",
+          "label": "releaseWallet",
+          "astId": 1890,
+          "type": "t_address",
+          "src": "727:21:4"
+        },
+        {
+          "contract": "LidTimeLock",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidTimeLock.sol",
+          "label": "presale",
+          "astId": 1892,
+          "type": "t_address",
+          "src": "761:36:4"
+        }
+      ],
+      "warnings": {
+        "hasConstructor": false,
+        "hasSelfDestruct": false,
+        "hasDelegateCall": false,
+        "hasInitialValuesInDeclarations": false,
+        "uninitializedBaseContracts": [],
+        "storageUncheckedVars": [],
+        "storageDiff": [
+          {
+            "action": "append",
+            "updated": {
+              "index": 12,
+              "contract": "LidTimeLock",
+              "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidTimeLock.sol",
+              "label": "presale",
+              "astId": 1892,
+              "type": "t_address",
+              "src": "761:36:4"
+            }
+          }
+        ]
+      }
+    },
+    "ProjectLock": {
+      "address": "0xB2640De57Fb7566B149c8676257deB2e10B5Ac3b",
+      "constructorCode": "6080604052610f22806100136000396000f3fe",
+      "bodyBytecodeHash": "86d886ce2ffbc4c1c5e478aa88656b65e9bf04e9e9a860b0701ef78678ca853c",
+      "localBytecodeHash": "5d69fd8ae628c268e28a62f1f4b0e8ec0410aa7848dd8230b38ba7da1ffcc060",
+      "deployedBytecodeHash": "5d69fd8ae628c268e28a62f1f4b0e8ec0410aa7848dd8230b38ba7da1ffcc060",
+      "types": {
+        "t_bool": {
+          "id": "t_bool",
+          "kind": "elementary",
+          "label": "bool"
+        },
+        "t_uint256": {
+          "id": "t_uint256",
+          "kind": "elementary",
+          "label": "uint256"
+        },
+        "t_array:50<t_uint256>": {
+          "id": "t_array:50<t_uint256>",
+          "valueType": "t_uint256",
+          "length": "50",
+          "kind": "array",
+          "label": "uint256[50]"
+        },
+        "t_address": {
+          "id": "t_address",
+          "kind": "elementary",
+          "label": "address"
+        }
+      },
+      "storage": [
+        {
+          "contract": "Initializable",
+          "path": "@openzeppelin\\upgrades\\contracts\\Initializable.sol",
+          "label": "initialized",
+          "astId": 8306,
+          "type": "t_bool",
+          "src": "757:24:35"
+        },
+        {
+          "contract": "Initializable",
+          "path": "@openzeppelin\\upgrades\\contracts\\Initializable.sol",
+          "label": "initializing",
+          "astId": 8308,
+          "type": "t_bool",
+          "src": "876:25:35"
+        },
+        {
+          "contract": "Initializable",
+          "path": "@openzeppelin\\upgrades\\contracts\\Initializable.sol",
+          "label": "______gap",
+          "astId": 8370,
+          "type": "t_array:50<t_uint256>",
+          "src": "1982:29:35"
+        },
+        {
+          "contract": "Ownable",
+          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\ownership\\Ownable.sol",
+          "label": "_owner",
+          "astId": 7666,
+          "type": "t_address",
+          "src": "526:22:31"
+        },
+        {
+          "contract": "Ownable",
+          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\ownership\\Ownable.sol",
+          "label": "______gap",
+          "astId": 7779,
+          "type": "t_array:50<t_uint256>",
+          "src": "2471:29:31"
+        },
+        {
+          "contract": "LidTimeLock",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidTimeLock.sol",
+          "label": "releaseInterval",
+          "astId": 1878,
+          "type": "t_uint256",
+          "src": "536:27:4"
+        },
+        {
+          "contract": "LidTimeLock",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidTimeLock.sol",
+          "label": "releaseStart",
+          "astId": 1880,
+          "type": "t_uint256",
+          "src": "570:24:4"
+        },
+        {
+          "contract": "LidTimeLock",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidTimeLock.sol",
+          "label": "releaseBP",
+          "astId": 1882,
+          "type": "t_uint256",
+          "src": "601:21:4"
+        },
+        {
+          "contract": "LidTimeLock",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidTimeLock.sol",
+          "label": "startingTokens",
+          "astId": 1884,
+          "type": "t_uint256",
+          "src": "631:26:4"
+        },
+        {
+          "contract": "LidTimeLock",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidTimeLock.sol",
+          "label": "claimedTokens",
+          "astId": 1886,
+          "type": "t_uint256",
+          "src": "664:25:4"
+        },
+        {
+          "contract": "LidTimeLock",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidTimeLock.sol",
+          "label": "token",
+          "astId": 1888,
+          "type": "t_address",
+          "src": "698:20:4"
+        },
+        {
+          "contract": "LidTimeLock",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidTimeLock.sol",
+          "label": "releaseWallet",
+          "astId": 1890,
+          "type": "t_address",
+          "src": "727:21:4"
+        },
+        {
+          "contract": "LidTimeLock",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidTimeLock.sol",
+          "label": "presale",
+          "astId": 1892,
+          "type": "t_address",
+          "src": "761:36:4"
+        }
+      ],
+      "warnings": {
+        "hasConstructor": false,
+        "hasSelfDestruct": false,
+        "hasDelegateCall": false,
+        "hasInitialValuesInDeclarations": false,
+        "uninitializedBaseContracts": [],
+        "storageUncheckedVars": [],
+        "storageDiff": [
+          {
+            "action": "append",
+            "updated": {
+              "index": 12,
+              "contract": "LidTimeLock",
+              "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidTimeLock.sol",
+              "label": "presale",
+              "astId": 1892,
+              "type": "t_address",
+              "src": "761:36:4"
+            }
+          }
+        ]
+      }
+    },
+    "LidSimplifiedPresaleTimer": {
+      "address": "0xF480Ad7EaDBc3cF59Af57aa438347627DB97F95B",
+      "constructorCode": "6080604052610902806100136000396000f3fe",
+      "bodyBytecodeHash": "89494010bfa5df163b27476e4532001048ad59d1e5ecfc86bca681650544d6b7",
+      "localBytecodeHash": "034734eb20677f7b9d7fa93b88945dca4c905c748b0241c133a1eda3ca82b920",
+      "deployedBytecodeHash": "034734eb20677f7b9d7fa93b88945dca4c905c748b0241c133a1eda3ca82b920",
+      "types": {
+        "t_bool": {
+          "id": "t_bool",
+          "kind": "elementary",
+          "label": "bool"
+        },
+        "t_uint256": {
+          "id": "t_uint256",
+          "kind": "elementary",
+          "label": "uint256"
+        },
+        "t_array:50<t_uint256>": {
+          "id": "t_array:50<t_uint256>",
+          "valueType": "t_uint256",
+          "length": "50",
+          "kind": "array",
+          "label": "uint256[50]"
+        },
+        "t_address": {
+          "id": "t_address",
+          "kind": "elementary",
+          "label": "address"
+        }
+      },
+      "storage": [
+        {
+          "contract": "Initializable",
+          "path": "@openzeppelin\\upgrades\\contracts\\Initializable.sol",
+          "label": "initialized",
+          "astId": 8287,
+          "type": "t_bool",
+          "src": "757:24:35"
+        },
+        {
+          "contract": "Initializable",
+          "path": "@openzeppelin\\upgrades\\contracts\\Initializable.sol",
+          "label": "initializing",
+          "astId": 8289,
+          "type": "t_bool",
+          "src": "876:25:35"
+        },
+        {
+          "contract": "Initializable",
+          "path": "@openzeppelin\\upgrades\\contracts\\Initializable.sol",
+          "label": "______gap",
+          "astId": 8351,
+          "type": "t_array:50<t_uint256>",
+          "src": "1982:29:35"
+        },
+        {
+          "contract": "Ownable",
+          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\ownership\\Ownable.sol",
+          "label": "_owner",
+          "astId": 7647,
+          "type": "t_address",
+          "src": "526:22:31"
+        },
+        {
+          "contract": "Ownable",
+          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\ownership\\Ownable.sol",
+          "label": "______gap",
+          "astId": 7760,
+          "type": "t_array:50<t_uint256>",
+          "src": "2471:29:31"
+        },
+        {
+          "contract": "LidSimplifiedPresaleTimer",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresaleTimer.sol",
+          "label": "startTime",
+          "astId": 1726,
+          "type": "t_uint256",
+          "src": "437:21:3"
+        },
+        {
+          "contract": "LidSimplifiedPresaleTimer",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresaleTimer.sol",
+          "label": "endTime",
+          "astId": 1728,
+          "type": "t_uint256",
+          "src": "465:19:3"
+        },
+        {
+          "contract": "LidSimplifiedPresaleTimer",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresaleTimer.sol",
+          "label": "hardCapTimer",
+          "astId": 1730,
+          "type": "t_uint256",
+          "src": "491:24:3"
+        },
+        {
+          "contract": "LidSimplifiedPresaleTimer",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresaleTimer.sol",
+          "label": "softCap",
+          "astId": 1732,
+          "type": "t_uint256",
+          "src": "522:19:3"
+        },
+        {
+          "contract": "LidSimplifiedPresaleTimer",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresaleTimer.sol",
+          "label": "presale",
+          "astId": 1734,
+          "type": "t_address",
+          "src": "548:22:3"
+        }
+      ],
+      "warnings": {
+        "hasConstructor": false,
+        "hasSelfDestruct": false,
+        "hasDelegateCall": false,
+        "hasInitialValuesInDeclarations": false,
+        "uninitializedBaseContracts": []
+      }
+    },
+    "LidSimplifiedPresaleRedeemer": {
+      "address": "0xf9ecc9EC3e1b49E91f055F5f082175200a5Ecf29",
+      "constructorCode": "6080604052611695806100136000396000f3fe",
+      "bodyBytecodeHash": "60572b5a6dd2e135fbf83397c9cd11912d1280c2f3a948887a31e622219e15e3",
+      "localBytecodeHash": "9d9883afd6af545d7309fe1ee40868690e550778408010bccf650d22f4f197a6",
+      "deployedBytecodeHash": "9d9883afd6af545d7309fe1ee40868690e550778408010bccf650d22f4f197a6",
+      "types": {
+        "t_bool": {
+          "id": "t_bool",
+          "kind": "elementary",
+          "label": "bool"
+        },
+        "t_uint256": {
+          "id": "t_uint256",
+          "kind": "elementary",
+          "label": "uint256"
+        },
+        "t_array:50<t_uint256>": {
+          "id": "t_array:50<t_uint256>",
+          "valueType": "t_uint256",
+          "length": "50",
+          "kind": "array",
+          "label": "uint256[50]"
+        },
+        "t_address": {
+          "id": "t_address",
+          "kind": "elementary",
+          "label": "address"
+        },
+        "t_array:dyn<t_uint256>": {
+          "id": "t_array:dyn<t_uint256>",
+          "valueType": "t_uint256",
+          "length": "dyn",
+          "kind": "array",
+          "label": "uint256[]"
+        },
+        "t_mapping<t_uint256>": {
+          "id": "t_mapping<t_uint256>",
+          "valueType": "t_uint256",
+          "label": "mapping(key => uint256)",
+          "kind": "mapping"
+        }
+      },
+      "storage": [
+        {
+          "contract": "Initializable",
+          "path": "@openzeppelin\\upgrades\\contracts\\Initializable.sol",
+          "label": "initialized",
+          "astId": 8312,
+          "type": "t_bool",
+          "src": "757:24:35"
+        },
+        {
+          "contract": "Initializable",
+          "path": "@openzeppelin\\upgrades\\contracts\\Initializable.sol",
+          "label": "initializing",
+          "astId": 8314,
+          "type": "t_bool",
+          "src": "876:25:35"
+        },
+        {
+          "contract": "Initializable",
+          "path": "@openzeppelin\\upgrades\\contracts\\Initializable.sol",
+          "label": "______gap",
+          "astId": 8376,
+          "type": "t_array:50<t_uint256>",
+          "src": "1982:29:35"
+        },
+        {
+          "contract": "Ownable",
+          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\ownership\\Ownable.sol",
+          "label": "_owner",
+          "astId": 7672,
+          "type": "t_address",
+          "src": "526:22:31"
+        },
+        {
+          "contract": "Ownable",
+          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\ownership\\Ownable.sol",
+          "label": "______gap",
+          "astId": 7785,
+          "type": "t_array:50<t_uint256>",
+          "src": "2471:29:31"
+        },
+        {
+          "contract": "LidSimplifiedPresaleRedeemer",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresaleRedeemer.sol",
+          "label": "redeemBP",
+          "astId": 1075,
+          "type": "t_uint256",
+          "src": "712:20:2"
+        },
+        {
+          "contract": "LidSimplifiedPresaleRedeemer",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresaleRedeemer.sol",
+          "label": "redeemInterval",
+          "astId": 1077,
+          "type": "t_uint256",
+          "src": "739:26:2"
+        },
+        {
+          "contract": "LidSimplifiedPresaleRedeemer",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresaleRedeemer.sol",
+          "label": "bonusRangeStart",
+          "astId": 1080,
+          "type": "t_array:dyn<t_uint256>",
+          "src": "774:29:2"
+        },
+        {
+          "contract": "LidSimplifiedPresaleRedeemer",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresaleRedeemer.sol",
+          "label": "bonusRangeBP",
+          "astId": 1083,
+          "type": "t_array:dyn<t_uint256>",
+          "src": "810:26:2"
+        },
+        {
+          "contract": "LidSimplifiedPresaleRedeemer",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresaleRedeemer.sol",
+          "label": "currentBonusIndex",
+          "astId": 1085,
+          "type": "t_uint256",
+          "src": "843:29:2"
+        },
+        {
+          "contract": "LidSimplifiedPresaleRedeemer",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresaleRedeemer.sol",
+          "label": "totalShares",
+          "astId": 1087,
+          "type": "t_uint256",
+          "src": "881:23:2"
+        },
+        {
+          "contract": "LidSimplifiedPresaleRedeemer",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresaleRedeemer.sol",
+          "label": "totalDepositors",
+          "astId": 1089,
+          "type": "t_uint256",
+          "src": "911:27:2"
+        },
+        {
+          "contract": "LidSimplifiedPresaleRedeemer",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresaleRedeemer.sol",
+          "label": "accountDeposits",
+          "astId": 1093,
+          "type": "t_mapping<t_uint256>",
+          "src": "945:47:2"
+        },
+        {
+          "contract": "LidSimplifiedPresaleRedeemer",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresaleRedeemer.sol",
+          "label": "accountShares",
+          "astId": 1097,
+          "type": "t_mapping<t_uint256>",
+          "src": "999:45:2"
+        },
+        {
+          "contract": "LidSimplifiedPresaleRedeemer",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresaleRedeemer.sol",
+          "label": "accountClaimedTokens",
+          "astId": 1101,
+          "type": "t_mapping<t_uint256>",
+          "src": "1051:52:2"
+        },
+        {
+          "contract": "LidSimplifiedPresaleRedeemer",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresaleRedeemer.sol",
+          "label": "presale",
+          "astId": 1103,
+          "type": "t_address",
+          "src": "1112:23:2"
+        }
+      ],
+      "warnings": {
+        "hasConstructor": false,
+        "hasSelfDestruct": false,
+        "hasDelegateCall": false,
+        "hasInitialValuesInDeclarations": false,
+        "uninitializedBaseContracts": [],
+        "storageUncheckedVars": [],
+        "storageDiff": []
+      }
+    },
+    "LidSimplifiedPresale": {
+      "address": "0x24F15537229590F33c1BDf6F2Fe3D55eed26ca6d",
+      "constructorCode": "60806040526138ff806100136000396000f3fe",
+      "bodyBytecodeHash": "22291c125de1950f09b47ad98c4ddda47100748f54a8e7331d53e4fcd9b89848",
+      "localBytecodeHash": "5503d424895492e358cea35bd3a8d1282459c73b5b63e0c4289bd32ffed2967f",
+      "deployedBytecodeHash": "5503d424895492e358cea35bd3a8d1282459c73b5b63e0c4289bd32ffed2967f",
+      "types": {
+        "t_bool": {
+          "id": "t_bool",
+          "kind": "elementary",
+          "label": "bool"
+        },
+        "t_uint256": {
+          "id": "t_uint256",
+          "kind": "elementary",
+          "label": "uint256"
+        },
+        "t_array:50<t_uint256>": {
+          "id": "t_array:50<t_uint256>",
+          "valueType": "t_uint256",
+          "length": "50",
+          "kind": "array",
+          "label": "uint256[50]"
+        },
+        "t_address": {
+          "id": "t_address",
+          "kind": "elementary",
+          "label": "address"
+        },
+        "t_struct<Roles.Role>": {
+          "id": "t_struct<Roles.Role>",
+          "kind": "struct",
+          "label": "Roles.Role",
+          "members": [
+            {
+              "label": "bearer",
+              "astId": 7147,
+              "type": "t_mapping<t_bool>",
+              "src": "150:32:27"
+            }
+          ]
+        },
+        "t_mapping<t_bool>": {
+          "id": "t_mapping<t_bool>",
+          "valueType": "t_bool",
+          "label": "mapping(key => bool)",
+          "kind": "mapping"
+        },
+        "t_array:dyn<t_address>": {
+          "id": "t_array:dyn<t_address>",
+          "valueType": "t_address",
+          "length": "dyn",
+          "kind": "array",
+          "label": "address[]"
+        },
+        "t_array:dyn<t_uint256>": {
+          "id": "t_array:dyn<t_uint256>",
+          "valueType": "t_uint256",
+          "length": "dyn",
+          "kind": "array",
+          "label": "uint256[]"
+        },
+        "t_address_payable": {
+          "id": "t_address_payable",
+          "kind": "elementary",
+          "label": "address payable"
+        },
+        "t_mapping<t_uint256>": {
+          "id": "t_mapping<t_uint256>",
+          "valueType": "t_uint256",
+          "label": "mapping(key => uint256)",
+          "kind": "mapping"
+        }
+      },
+      "storage": [
+        {
+          "contract": "Initializable",
+          "path": "@openzeppelin\\upgrades\\contracts\\Initializable.sol",
+          "label": "initialized",
+          "astId": 8287,
+          "type": "t_bool",
+          "src": "757:24:35"
+        },
+        {
+          "contract": "Initializable",
+          "path": "@openzeppelin\\upgrades\\contracts\\Initializable.sol",
+          "label": "initializing",
+          "astId": 8289,
+          "type": "t_bool",
+          "src": "876:25:35"
+        },
+        {
+          "contract": "Initializable",
+          "path": "@openzeppelin\\upgrades\\contracts\\Initializable.sol",
+          "label": "______gap",
+          "astId": 8351,
+          "type": "t_array:50<t_uint256>",
+          "src": "1982:29:35"
+        },
+        {
+          "contract": "Ownable",
+          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\ownership\\Ownable.sol",
+          "label": "_owner",
+          "astId": 7647,
+          "type": "t_address",
+          "src": "526:22:31"
+        },
+        {
+          "contract": "Ownable",
+          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\ownership\\Ownable.sol",
+          "label": "______gap",
+          "astId": 7760,
+          "type": "t_array:50<t_uint256>",
+          "src": "2471:29:31"
+        },
+        {
+          "contract": "ReentrancyGuard",
+          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\utils\\ReentrancyGuard.sol",
+          "label": "_guardCounter",
+          "astId": 8249,
+          "type": "t_uint256",
+          "src": "733:29:34"
+        },
+        {
+          "contract": "ReentrancyGuard",
+          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\utils\\ReentrancyGuard.sol",
+          "label": "______gap",
+          "astId": 8282,
+          "type": "t_array:50<t_uint256>",
+          "src": "1563:29:34"
+        },
+        {
+          "contract": "PauserRole",
+          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\access\\roles\\PauserRole.sol",
+          "label": "_pausers",
+          "astId": 7244,
+          "type": "t_struct<Roles.Role>",
+          "src": "327:27:28"
+        },
+        {
+          "contract": "PauserRole",
+          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\access\\roles\\PauserRole.sol",
+          "label": "______gap",
+          "astId": 7344,
+          "type": "t_array:50<t_uint256>",
+          "src": "1193:29:28"
+        },
+        {
+          "contract": "Pausable",
+          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\lifecycle\\Pausable.sol",
+          "label": "_paused",
+          "astId": 7366,
+          "type": "t_bool",
+          "src": "909:20:29"
+        },
+        {
+          "contract": "Pausable",
+          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\lifecycle\\Pausable.sol",
+          "label": "______gap",
+          "astId": 7449,
+          "type": "t_array:50<t_uint256>",
+          "src": "2163:29:29"
+        },
+        {
+          "contract": "LidSimplifiedPresale",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresale.sol",
+          "label": "maxBuyPerAddress",
+          "astId": 28,
+          "type": "t_uint256",
+          "src": "906:28:0"
+        },
+        {
+          "contract": "LidSimplifiedPresale",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresale.sol",
+          "label": "referralBP",
+          "astId": 30,
+          "type": "t_uint256",
+          "src": "943:22:0"
+        },
+        {
+          "contract": "LidSimplifiedPresale",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresale.sol",
+          "label": "uniswapEthBP",
+          "astId": 32,
+          "type": "t_uint256",
+          "src": "974:24:0"
+        },
+        {
+          "contract": "LidSimplifiedPresale",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresale.sol",
+          "label": "lidEthBP",
+          "astId": 34,
+          "type": "t_uint256",
+          "src": "1005:20:0"
+        },
+        {
+          "contract": "LidSimplifiedPresale",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresale.sol",
+          "label": "uniswapTokenBP",
+          "astId": 36,
+          "type": "t_uint256",
+          "src": "1034:26:0"
+        },
+        {
+          "contract": "LidSimplifiedPresale",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresale.sol",
+          "label": "presaleTokenBP",
+          "astId": 38,
+          "type": "t_uint256",
+          "src": "1067:26:0"
+        },
+        {
+          "contract": "LidSimplifiedPresale",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresale.sol",
+          "label": "tokenPools",
+          "astId": 41,
+          "type": "t_array:dyn<t_address>",
+          "src": "1100:27:0"
+        },
+        {
+          "contract": "LidSimplifiedPresale",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresale.sol",
+          "label": "tokenPoolBPs",
+          "astId": 44,
+          "type": "t_array:dyn<t_uint256>",
+          "src": "1134:26:0"
+        },
+        {
+          "contract": "LidSimplifiedPresale",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresale.sol",
+          "label": "hardcap",
+          "astId": 46,
+          "type": "t_uint256",
+          "src": "1169:19:0"
+        },
+        {
+          "contract": "LidSimplifiedPresale",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresale.sol",
+          "label": "totalTokens",
+          "astId": 48,
+          "type": "t_uint256",
+          "src": "1195:23:0"
+        },
+        {
+          "contract": "LidSimplifiedPresale",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresale.sol",
+          "label": "hasSentToUniswap",
+          "astId": 50,
+          "type": "t_bool",
+          "src": "1227:28:0"
+        },
+        {
+          "contract": "LidSimplifiedPresale",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresale.sol",
+          "label": "hasIssuedTokens",
+          "astId": 52,
+          "type": "t_bool",
+          "src": "1262:27:0"
+        },
+        {
+          "contract": "LidSimplifiedPresale",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresale.sol",
+          "label": "finalEndTime",
+          "astId": 54,
+          "type": "t_uint256",
+          "src": "1298:24:0"
+        },
+        {
+          "contract": "LidSimplifiedPresale",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresale.sol",
+          "label": "finalEth",
+          "astId": 56,
+          "type": "t_uint256",
+          "src": "1329:20:0"
+        },
+        {
+          "contract": "LidSimplifiedPresale",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresale.sol",
+          "label": "token",
+          "astId": 58,
+          "type": "t_address",
+          "src": "1358:20:0"
+        },
+        {
+          "contract": "LidSimplifiedPresale",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresale.sol",
+          "label": "uniswapRouter",
+          "astId": 60,
+          "type": "t_address",
+          "src": "1385:40:0"
+        },
+        {
+          "contract": "LidSimplifiedPresale",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresale.sol",
+          "label": "timer",
+          "astId": 62,
+          "type": "t_address",
+          "src": "1432:39:0"
+        },
+        {
+          "contract": "LidSimplifiedPresale",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresale.sol",
+          "label": "redeemer",
+          "astId": 64,
+          "type": "t_address",
+          "src": "1478:45:0"
+        },
+        {
+          "contract": "LidSimplifiedPresale",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresale.sol",
+          "label": "access",
+          "astId": 66,
+          "type": "t_address",
+          "src": "1530:41:0"
+        },
+        {
+          "contract": "LidSimplifiedPresale",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresale.sol",
+          "label": "lidFund",
+          "astId": 68,
+          "type": "t_address_payable",
+          "src": "1578:31:0"
+        },
+        {
+          "contract": "LidSimplifiedPresale",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresale.sol",
+          "label": "accountEthDeposit",
+          "astId": 72,
+          "type": "t_mapping<t_uint256>",
+          "src": "1618:49:0"
+        },
+        {
+          "contract": "LidSimplifiedPresale",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresale.sol",
+          "label": "earnedReferrals",
+          "astId": 76,
+          "type": "t_mapping<t_uint256>",
+          "src": "1674:47:0"
+        },
+        {
+          "contract": "LidSimplifiedPresale",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresale.sol",
+          "label": "referralCounts",
+          "astId": 80,
+          "type": "t_mapping<t_uint256>",
+          "src": "1730:46:0"
+        },
+        {
+          "contract": "LidSimplifiedPresale",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresale.sol",
+          "label": "refundedEth",
+          "astId": 84,
+          "type": "t_mapping<t_uint256>",
+          "src": "1785:43:0"
+        },
+        {
+          "contract": "LidSimplifiedPresale",
+          "path": "..\\..\\..\\..\\C\\Users\\great\\repos\\lid-pluton-contracts\\contracts\\LidSimplifiedPresale.sol",
+          "label": "isRefunding",
+          "astId": 86,
+          "type": "t_bool",
+          "src": "1837:23:0"
+        }
+      ],
+      "warnings": {
+        "hasConstructor": false,
+        "hasSelfDestruct": false,
+        "hasDelegateCall": false,
+        "hasInitialValuesInDeclarations": false,
+        "uninitializedBaseContracts": []
+      }
+    }
+  },
+  "solidityLibs": {},
+  "proxies": {
+    "lid-simplified-presale-contracts/TeamLock": [
+      {
+        "address": "0x736857A7B90E972f000A4cee789ffbcFCcDbecF7",
+        "version": "1.0.0",
+        "implementation": "0x4274Ba8ac2E7d2316A711c333AEE89d2d60e23A1",
+        "admin": "0x65B3Bc082378bEA5576b2C288B3488a0726A0d67",
+        "kind": "Upgradeable"
+      }
+    ],
+    "lid-simplified-presale-contracts/ProjectLock": [
+      {
+        "address": "0x293D19C04d7b76f3e426CF71333E5ed5e0218c32",
+        "version": "1.0.0",
+        "implementation": "0xB2640De57Fb7566B149c8676257deB2e10B5Ac3b",
+        "admin": "0x65B3Bc082378bEA5576b2C288B3488a0726A0d67",
+        "kind": "Upgradeable"
+      }
+    ],
+    "lid-simplified-presale-contracts/LidSimplifiedPresaleTimer": [
+      {
+        "address": "0x166fA489De3123c4c1c1Ee302e895b9FaAE44454",
+        "version": "1.0.0",
+        "implementation": "0xF480Ad7EaDBc3cF59Af57aa438347627DB97F95B",
+        "admin": "0x65B3Bc082378bEA5576b2C288B3488a0726A0d67",
+        "kind": "Upgradeable"
+      }
+    ],
+    "lid-simplified-presale-contracts/LidSimplifiedPresaleRedeemer": [
+      {
+        "address": "0x5c933757f2079cf33a4Fb1165424F8580f5D8960",
+        "version": "1.0.0",
+        "implementation": "0xf9ecc9EC3e1b49E91f055F5f082175200a5Ecf29",
+        "admin": "0x65B3Bc082378bEA5576b2C288B3488a0726A0d67",
+        "kind": "Upgradeable"
+      }
+    ],
+    "lid-simplified-presale-contracts/LidSimplifiedPresale": [
+      {
+        "address": "0x51f2CaD284118b80a7307D2C0bd56DDF5EAc460f",
+        "version": "1.0.0",
+        "implementation": "0x24F15537229590F33c1BDf6F2Fe3D55eed26ca6d",
+        "admin": "0x65B3Bc082378bEA5576b2C288B3488a0726A0d67",
+        "kind": "Upgradeable"
+      }
+    ]
+  },
+  "manifestVersion": "2.2",
+  "version": "1.0.0",
+  "proxyAdmin": {
+    "address": "0x65B3Bc082378bEA5576b2C288B3488a0726A0d67"
+  }
+}
